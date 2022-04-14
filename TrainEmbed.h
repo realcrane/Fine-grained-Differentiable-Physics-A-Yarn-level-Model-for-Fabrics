@@ -9,8 +9,7 @@
 
 using namespace indicators;
 
-void train_embed(std::string save_path, std::string data_path, int epoch, int iter, int batch, int sample, int steps,
-	bool all_steps, bool random, bool para)
+void train_embed(std::string save_path, std::string data_path, int epoch, int iter, int batch, int sample, int steps, bool all_steps, bool random)
 {
 	// epoch: the number of training epoches
 // iter: 

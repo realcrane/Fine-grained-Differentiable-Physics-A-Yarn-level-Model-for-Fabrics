@@ -48,7 +48,7 @@ void TrainEmbed()
 	std::string data_path = "./data/Control_Plain_Drop_100Steps.h5";
 	std::string save_path = "./train/Embed_Control_New.h5";
 
-	train_embed(save_path, data_path, epoch, 1, 1, frame_num + 1, steps, is_all_steps, is_random, is_para);
+	train_embed(save_path, data_path, epoch, 1, 1, frame_num + 1, steps, is_all_steps, is_random);
 }
 
 void TrainHeterFew() {
