@@ -22,6 +22,11 @@ The functions for training include:
 * TrainHeterFull(): Learn yarn's density, stretching stiffness, bending stiffness, shearing stiffness, and sliding friction coefficient.
 * TrainControl(): Learn the needed force to throw a piece of cloth in target place.
 
+## Training Data
+The folder TrainingData contains simulated cloth dynamics for reproduce the training results shown in our paper.
+* Table_2 contains 5 by 5, 10 by 10, 17 by 17, and 25 by 25 plain cloth woven by Yarn-{1,2}.
+* 17x17_Cloth contains 17 by 17 plain, satin, and twill cloth woven by Yarn-{1,2}, Yarn-{1,3} and Yarn-{2,3}.
+
 ## Notes
 1. The visual results are saved as a sequence of .obj files which can be viewed in Blender with [Stop Motion OBJ](https://github.com/neverhood311/Stop-motion-OBJ) plug-in.
 2. The simulation data, i.e positions and velocity, and training data are saved in hdf5 files which can be viewed in [HDF View](https://www.hdfgroup.org/downloads/hdfview/).
