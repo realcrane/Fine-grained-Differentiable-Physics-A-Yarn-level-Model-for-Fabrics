@@ -49,8 +49,7 @@ Please cite our paper if you find it useful:
     author={Deshan Gong, Zhanxing Zhu, Andy Bulpitt and He Wang},
     booktitle={Proceedings of the International Confernece on Learning Representations},
     title={Fine-grained Differentiable Physics: A Yarn-level Model for Fabrics},
-    year={2022}
-}
+    year={2022}}
 
 ## License
 
