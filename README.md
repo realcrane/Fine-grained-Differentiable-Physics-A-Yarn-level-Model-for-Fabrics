@@ -30,6 +30,7 @@ The folder TrainingData contains simulated cloth dynamics for reproduce the trai
 ## Notes
 1. The visual results are saved as a sequence of .obj files which can be viewed in Blender with [Stop Motion OBJ](https://github.com/neverhood311/Stop-motion-OBJ) plug-in.
 2. The simulation data, i.e positions and velocity, and training data are saved in hdf5 files which can be viewed in [HDF View](https://www.hdfgroup.org/downloads/hdfview/).
+3. Try to compile in Release or RelWithDebInfo model to avoid some possible errors.
 
 ## Authors
 Authors
